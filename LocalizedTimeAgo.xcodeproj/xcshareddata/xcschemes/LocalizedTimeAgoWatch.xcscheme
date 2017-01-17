@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B8A76AF1E2DA9430066B684"
-               BuildableName = "LocalizedTimeAgoWatch.framework"
+               BuildableName = "LocalizedTimeAgo.framework"
                BlueprintName = "LocalizedTimeAgoWatch"
                ReferencedContainer = "container:LocalizedTimeAgo.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B8A76AF1E2DA9430066B684"
-            BuildableName = "LocalizedTimeAgoWatch.framework"
+            BuildableName = "LocalizedTimeAgo.framework"
             BlueprintName = "LocalizedTimeAgoWatch"
             ReferencedContainer = "container:LocalizedTimeAgo.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B8A76AF1E2DA9430066B684"
-            BuildableName = "LocalizedTimeAgoWatch.framework"
+            BuildableName = "LocalizedTimeAgo.framework"
             BlueprintName = "LocalizedTimeAgoWatch"
             ReferencedContainer = "container:LocalizedTimeAgo.xcodeproj">
          </BuildableReference>
