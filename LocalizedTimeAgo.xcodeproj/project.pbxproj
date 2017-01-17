@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B3779C01E2A8F4500D4301C /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B3779C21E2A8F6E00D4301C /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
+		9B6A0C1E1E2C320F0096F61F /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
+		9B8A76A71E2DA8C30066B684 /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */; };
+		9B8A76A81E2DA8C90066B684 /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8A76A91E2DA8CA0066B684 /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8A76AA1E2DA8D10066B684 /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
+		9B8A76B81E2DA9490066B684 /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8A76B91E2DA9790066B684 /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
+		9B8A76BA1E2DA97C0066B684 /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */; };
+		9B9782D01E2C3875005FC432 /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */; };
+		9B9782D11E2C387B005FC432 /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B3779AF1E2A8EFE00D4301C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
+		9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalizedTimeAgo.h; path = Sources/LocalizedTimeAgo.h; sourceTree = SOURCE_ROOT; };
+		9B3779B81E2A8F3C00D4301C /* LocalizedTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizedTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalizedTimeAgo.swift; path = Sources/LocalizedTimeAgo.swift; sourceTree = SOURCE_ROOT; };
+		9B6A0BE91E2C2CA60096F61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6A0C161E2C31F00096F61F /* LocalizedTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizedTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6A0C181E2C31F10096F61F /* LocalizedTimeAgoMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizedTimeAgoMac.h; sourceTree = "<group>"; };
+		9B6A0C191E2C31F10096F61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8A769F1E2DA8A60066B684 /* LocalizedTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizedTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8A76A11E2DA8A60066B684 /* LocalizedTimeAgoTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizedTimeAgoTV.h; sourceTree = "<group>"; };
+		9B8A76A21E2DA8A60066B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8A76B01E2DA9430066B684 /* LocalizedTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizedTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8A76B21E2DA9430066B684 /* LocalizedTimeAgoWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizedTimeAgoWatch.h; sourceTree = "<group>"; };
+		9B8A76B31E2DA9430066B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8A76BC1E2DA9E90066B684 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = SOURCE_ROOT; };
+		9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LocalizedTimeAgo.bundle; path = Sources/LocalizedTimeAgo.bundle; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B3779B41E2A8F3C00D4301C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6A0C121E2C31F00096F61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8A769B1E2DA8A60066B684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8A76AC1E2DA9430066B684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B37799A1E2A8E0000D4301C = {
+			isa = PBXGroup;
+			children = (
+				9B3779A81E2A8E3800D4301C /* Sources */,
+				9B6A0BE81E2C2CA60096F61F /* LocalizedTimeAgo */,
+				9B6A0C171E2C31F10096F61F /* LocalizedTimeAgoMac */,
+				9B8A76A01E2DA8A60066B684 /* LocalizedTimeAgoTV */,
+				9B8A76B11E2DA9430066B684 /* LocalizedTimeAgoWatch */,
+				9B3779A71E2A8E3800D4301C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B3779A71E2A8E3800D4301C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3779B81E2A8F3C00D4301C /* LocalizedTimeAgo.framework */,
+				9B6A0C161E2C31F00096F61F /* LocalizedTimeAgo.framework */,
+				9B8A769F1E2DA8A60066B684 /* LocalizedTimeAgo.framework */,
+				9B8A76B01E2DA9430066B684 /* LocalizedTimeAgo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3779A81E2A8E3800D4301C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */,
+				9B3779AF1E2A8EFE00D4301C /* Info.plist */,
+				9B8A76BC1E2DA9E90066B684 /* Info-tvOS.plist */,
+				9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */,
+				9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */,
+			);
+			name = Sources;
+			path = LocalizedTimeAgo;
+			sourceTree = "<group>";
+		};
+		9B6A0BE81E2C2CA60096F61F /* LocalizedTimeAgo */ = {
+			isa = PBXGroup;
+			children = (
+				9B6A0BE91E2C2CA60096F61F /* Info.plist */,
+			);
+			path = LocalizedTimeAgo;
+			sourceTree = "<group>";
+		};
+		9B6A0C171E2C31F10096F61F /* LocalizedTimeAgoMac */ = {
+			isa = PBXGroup;
+			children = (
+				9B6A0C181E2C31F10096F61F /* LocalizedTimeAgoMac.h */,
+				9B6A0C191E2C31F10096F61F /* Info.plist */,
+			);
+			path = LocalizedTimeAgoMac;
+			sourceTree = "<group>";
+		};
+		9B8A76A01E2DA8A60066B684 /* LocalizedTimeAgoTV */ = {
+			isa = PBXGroup;
+			children = (
+				9B8A76A11E2DA8A60066B684 /* LocalizedTimeAgoTV.h */,
+				9B8A76A21E2DA8A60066B684 /* Info.plist */,
+			);
+			path = LocalizedTimeAgoTV;
+			sourceTree = "<group>";
+		};
+		9B8A76B11E2DA9430066B684 /* LocalizedTimeAgoWatch */ = {
+			isa = PBXGroup;
+			children = (
+				9B8A76B21E2DA9430066B684 /* LocalizedTimeAgoWatch.h */,
+				9B8A76B31E2DA9430066B684 /* Info.plist */,
+			);
+			path = LocalizedTimeAgoWatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B3779B51E2A8F3C00D4301C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3779C01E2A8F4500D4301C /* LocalizedTimeAgo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6A0C131E2C31F00096F61F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8A76A81E2DA8C90066B684 /* LocalizedTimeAgo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8A769C1E2DA8A60066B684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8A76A91E2DA8CA0066B684 /* LocalizedTimeAgo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8A76AD1E2DA9430066B684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8A76B81E2DA9490066B684 /* LocalizedTimeAgo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9B3779B71E2A8F3C00D4301C /* LocalizedTimeAgoMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3779BD1E2A8F3C00D4301C /* Build configuration list for PBXNativeTarget "LocalizedTimeAgoMobile" */;
+			buildPhases = (
+				9B3779B31E2A8F3C00D4301C /* Sources */,
+				9B3779B41E2A8F3C00D4301C /* Frameworks */,
+				9B3779B51E2A8F3C00D4301C /* Headers */,
+				9B3779B61E2A8F3C00D4301C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizedTimeAgoMobile;
+			productName = LocalizedTimeAgoMobile;
+			productReference = 9B3779B81E2A8F3C00D4301C /* LocalizedTimeAgo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B6A0C151E2C31F00096F61F /* LocalizedTimeAgoMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6A0C1B1E2C31F10096F61F /* Build configuration list for PBXNativeTarget "LocalizedTimeAgoMac" */;
+			buildPhases = (
+				9B6A0C111E2C31F00096F61F /* Sources */,
+				9B6A0C121E2C31F00096F61F /* Frameworks */,
+				9B6A0C131E2C31F00096F61F /* Headers */,
+				9B6A0C141E2C31F00096F61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizedTimeAgoMac;
+			productName = LocalizedTimeAgoMac;
+			productReference = 9B6A0C161E2C31F00096F61F /* LocalizedTimeAgo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B8A769E1E2DA8A60066B684 /* LocalizedTimeAgoTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8A76A61E2DA8A60066B684 /* Build configuration list for PBXNativeTarget "LocalizedTimeAgoTV" */;
+			buildPhases = (
+				9B8A769A1E2DA8A60066B684 /* Sources */,
+				9B8A769B1E2DA8A60066B684 /* Frameworks */,
+				9B8A769C1E2DA8A60066B684 /* Headers */,
+				9B8A769D1E2DA8A60066B684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizedTimeAgoTV;
+			productName = LocalizedTimeAgoTV;
+			productReference = 9B8A769F1E2DA8A60066B684 /* LocalizedTimeAgo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B8A76AF1E2DA9430066B684 /* LocalizedTimeAgoWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8A76B51E2DA9430066B684 /* Build configuration list for PBXNativeTarget "LocalizedTimeAgoWatch" */;
+			buildPhases = (
+				9B8A76AB1E2DA9430066B684 /* Sources */,
+				9B8A76AC1E2DA9430066B684 /* Frameworks */,
+				9B8A76AD1E2DA9430066B684 /* Headers */,
+				9B8A76AE1E2DA9430066B684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizedTimeAgoWatch;
+			productName = LocalizedTimeAgoWatch;
+			productReference = 9B8A76B01E2DA9430066B684 /* LocalizedTimeAgo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B37799B1E2A8E0100D4301C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					9B3779B71E2A8F3C00D4301C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R3JQ32F9MD;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					9B6A0C151E2C31F00096F61F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R3JQ32F9MD;
+						ProvisioningStyle = Automatic;
+					};
+					9B8A769E1E2DA8A60066B684 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R3JQ32F9MD;
+						ProvisioningStyle = Automatic;
+					};
+					9B8A76AF1E2DA9430066B684 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R3JQ32F9MD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B37799E1E2A8E0100D4301C /* Build configuration list for PBXProject "LocalizedTimeAgo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B37799A1E2A8E0000D4301C;
+			productRefGroup = 9B3779A71E2A8E3800D4301C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3779B71E2A8F3C00D4301C /* LocalizedTimeAgoMobile */,
+				9B6A0C151E2C31F00096F61F /* LocalizedTimeAgoMac */,
+				9B8A769E1E2DA8A60066B684 /* LocalizedTimeAgoTV */,
+				9B8A76AF1E2DA9430066B684 /* LocalizedTimeAgoWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B3779B61E2A8F3C00D4301C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9782D01E2C3875005FC432 /* LocalizedTimeAgo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6A0C141E2C31F00096F61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9782D11E2C387B005FC432 /* LocalizedTimeAgo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8A769D1E2DA8A60066B684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8A76A71E2DA8C30066B684 /* LocalizedTimeAgo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8A76AE1E2DA9430066B684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8A76BA1E2DA97C0066B684 /* LocalizedTimeAgo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B3779B31E2A8F3C00D4301C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3779C21E2A8F6E00D4301C /* LocalizedTimeAgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6A0C111E2C31F00096F61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6A0C1E1E2C320F0096F61F /* LocalizedTimeAgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8A769A1E2DA8A60066B684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8A76AA1E2DA8D10066B684 /* LocalizedTimeAgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8A76AB1E2DA9430066B684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8A76B91E2DA9790066B684 /* LocalizedTimeAgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B37799F1E2A8E0100D4301C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		9B3779A01E2A8E0100D4301C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		9B3779BE1E2A8F3C00D4301C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R3JQ32F9MD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toddkramer.LocalizedTimeAgoMobile;
+				PRODUCT_NAME = LocalizedTimeAgo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B3779BF1E2A8F3C00D4301C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R3JQ32F9MD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toddkramer.LocalizedTimeAgoMobile;
+				PRODUCT_NAME = LocalizedTimeAgo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B6A0C1C1E2C31F10096F61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R3JQ32F9MD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toddkramer.LocalizedTimeAgoMac;
+				PRODUCT_NAME = LocalizedTimeAgo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B6A0C1D1E2C31F10096F61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R3JQ32F9MD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toddkramer.LocalizedTimeAgoMac;
+				PRODUCT_NAME = LocalizedTimeAgo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B8A76A41E2DA8A60066B684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R3JQ32F9MD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toddkramer.LocalizedTimeAgoTV;
+				PRODUCT_NAME = LocalizedTimeAgo;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B8A76A51E2DA8A60066B684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R3JQ32F9MD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toddkramer.LocalizedTimeAgoTV;
+				PRODUCT_NAME = LocalizedTimeAgo;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B8A76B61E2DA9430066B684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R3JQ32F9MD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toddkramer.LocalizedTimeAgoWatch;
+				PRODUCT_NAME = LocalizedTimeAgo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9B8A76B71E2DA9430066B684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R3JQ32F9MD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toddkramer.LocalizedTimeAgoWatch;
+				PRODUCT_NAME = LocalizedTimeAgo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B37799E1E2A8E0100D4301C /* Build configuration list for PBXProject "LocalizedTimeAgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B37799F1E2A8E0100D4301C /* Debug */,
+				9B3779A01E2A8E0100D4301C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3779BD1E2A8F3C00D4301C /* Build configuration list for PBXNativeTarget "LocalizedTimeAgoMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3779BE1E2A8F3C00D4301C /* Debug */,
+				9B3779BF1E2A8F3C00D4301C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6A0C1B1E2C31F10096F61F /* Build configuration list for PBXNativeTarget "LocalizedTimeAgoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6A0C1C1E2C31F10096F61F /* Debug */,
+				9B6A0C1D1E2C31F10096F61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8A76A61E2DA8A60066B684 /* Build configuration list for PBXNativeTarget "LocalizedTimeAgoTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8A76A41E2DA8A60066B684 /* Debug */,
+				9B8A76A51E2DA8A60066B684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B8A76B51E2DA9430066B684 /* Build configuration list for PBXNativeTarget "LocalizedTimeAgoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8A76B61E2DA9430066B684 /* Debug */,
+				9B8A76B71E2DA9430066B684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B37799B1E2A8E0100D4301C /* Project object */;
+}
