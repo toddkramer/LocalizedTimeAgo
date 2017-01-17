@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'LocalizedTimeAgo'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.license = 'MIT'
   s.summary = 'Swift time ago framework localized in 42 languages.'
   s.homepage = 'https://github.com/toddkramer/LocalizedTimeAgo'
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'Sources/*.{swift,bundle}'
+  s.source_files = 'Sources/*.swift'
+  s.resources    = 'Sources/LocalizedTimeAgo.bundle'
 end
 
