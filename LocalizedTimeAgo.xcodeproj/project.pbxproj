@@ -10,15 +10,15 @@
 		9B3779C01E2A8F4500D4301C /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B3779C21E2A8F6E00D4301C /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
 		9B6A0C1E1E2C320F0096F61F /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
-		9B8A76A71E2DA8C30066B684 /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */; };
 		9B8A76A81E2DA8C90066B684 /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B8A76A91E2DA8CA0066B684 /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B8A76AA1E2DA8D10066B684 /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
 		9B8A76B81E2DA9490066B684 /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B8A76B91E2DA9790066B684 /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
-		9B8A76BA1E2DA97C0066B684 /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */; };
-		9B9782D01E2C3875005FC432 /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */; };
-		9B9782D11E2C387B005FC432 /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */; };
+		9BF0C86E1E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */; };
+		9BF0C86F1E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */; };
+		9BF0C8701E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */; };
+		9BF0C8711E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		9B8A76B21E2DA9430066B684 /* LocalizedTimeAgoWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizedTimeAgoWatch.h; sourceTree = "<group>"; };
 		9B8A76B31E2DA9430066B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B8A76BC1E2DA9E90066B684 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = SOURCE_ROOT; };
-		9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LocalizedTimeAgo.bundle; path = Sources/LocalizedTimeAgo.bundle; sourceTree = SOURCE_ROOT; };
+		9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LocalizedTimeAgo.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 				9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */,
 				9B3779AF1E2A8EFE00D4301C /* Info.plist */,
 				9B8A76BC1E2DA9E90066B684 /* Info-tvOS.plist */,
-				9B9782CF1E2C3875005FC432 /* LocalizedTimeAgo.bundle */,
 				9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */,
+				9BF0C86C1E2F0339008EEB9B /* Resources */,
 			);
 			name = Sources;
 			path = LocalizedTimeAgo;
@@ -142,6 +142,14 @@
 			);
 			path = LocalizedTimeAgoWatch;
 			sourceTree = "<group>";
+		};
+		9BF0C86C1E2F0339008EEB9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -305,7 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9782D01E2C3875005FC432 /* LocalizedTimeAgo.bundle in Resources */,
+				9BF0C86E1E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9782D11E2C387B005FC432 /* LocalizedTimeAgo.bundle in Resources */,
+				9BF0C86F1E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B8A76A71E2DA8C30066B684 /* LocalizedTimeAgo.bundle in Resources */,
+				9BF0C8701E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B8A76BA1E2DA97C0066B684 /* LocalizedTimeAgo.bundle in Resources */,
+				9BF0C8711E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
