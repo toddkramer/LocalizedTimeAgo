@@ -31,7 +31,7 @@ Manager:
         name: "MyAppTarget",
         dependencies: [
             .Package(url: "https://github.com/toddkramer/LocalizedTimeAgo",
-                     majorVersion: 1, minor: 0)
+                     majorVersion: 1, minor: 1)
         ]
     )
     ```
@@ -55,7 +55,7 @@ install LocalizedTimeAgo with Carthage:
  2. Add LocalizedTimeAgo to your Cartfile:
 
     ```
-    github "toddkramer/LocalizedTimeAgo" ~> 1.0.2
+    github "toddkramer/LocalizedTimeAgo" ~> 1.1.0
     ```
 
  3. Run `carthage update` and [add the appropriate framework][Carthage Usage].
@@ -79,7 +79,7 @@ LocalizedTimeAgo with CocoaPods:
     ``` ruby
     use_frameworks!
 
-    pod 'LocalizedTimeAgo', '~> 1.0.2'
+    pod 'LocalizedTimeAgo', '~> 1.1.0'
     ```
 
  3. Run `pod install`.
