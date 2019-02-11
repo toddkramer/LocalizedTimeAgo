@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B3779C01E2A8F4500D4301C /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B3779C21E2A8F6E00D4301C /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
-		9B6A0C1E1E2C320F0096F61F /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
-		9B8A76A81E2DA8C90066B684 /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B8A76A91E2DA8CA0066B684 /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B8A76AA1E2DA8D10066B684 /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
-		9B8A76B81E2DA9490066B684 /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B8A76B91E2DA9790066B684 /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */; };
+		9B5A7AB82210F21700FD0C9D /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5A7AB52210F21700FD0C9D /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B5A7AB92210F21700FD0C9D /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5A7AB52210F21700FD0C9D /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B5A7ABA2210F21700FD0C9D /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5A7AB52210F21700FD0C9D /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B5A7ABB2210F21700FD0C9D /* LocalizedTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5A7AB52210F21700FD0C9D /* LocalizedTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B5A7ABC2210F21700FD0C9D /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A7AB62210F21700FD0C9D /* LocalizedTimeAgo.swift */; };
+		9B5A7ABD2210F21700FD0C9D /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A7AB62210F21700FD0C9D /* LocalizedTimeAgo.swift */; };
+		9B5A7ABE2210F21700FD0C9D /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A7AB62210F21700FD0C9D /* LocalizedTimeAgo.swift */; };
+		9B5A7ABF2210F21700FD0C9D /* LocalizedTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A7AB62210F21700FD0C9D /* LocalizedTimeAgo.swift */; };
 		9BF0C86E1E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */; };
 		9BF0C86F1E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */; };
 		9BF0C8701E2F0339008EEB9B /* LocalizedTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */; };
@@ -22,21 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B3779AF1E2A8EFE00D4301C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
-		9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalizedTimeAgo.h; path = Sources/LocalizedTimeAgo.h; sourceTree = SOURCE_ROOT; };
 		9B3779B81E2A8F3C00D4301C /* LocalizedTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizedTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalizedTimeAgo.swift; path = Sources/LocalizedTimeAgo.swift; sourceTree = SOURCE_ROOT; };
-		9B6A0BE91E2C2CA60096F61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5A7AB52210F21700FD0C9D /* LocalizedTimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedTimeAgo.h; sourceTree = "<group>"; };
+		9B5A7AB62210F21700FD0C9D /* LocalizedTimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedTimeAgo.swift; sourceTree = "<group>"; };
+		9B5A7AB72210F21700FD0C9D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B6A0C161E2C31F00096F61F /* LocalizedTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizedTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B6A0C181E2C31F10096F61F /* LocalizedTimeAgoMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizedTimeAgoMac.h; sourceTree = "<group>"; };
-		9B6A0C191E2C31F10096F61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B8A769F1E2DA8A60066B684 /* LocalizedTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizedTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B8A76A11E2DA8A60066B684 /* LocalizedTimeAgoTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizedTimeAgoTV.h; sourceTree = "<group>"; };
-		9B8A76A21E2DA8A60066B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B8A76B01E2DA9430066B684 /* LocalizedTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizedTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B8A76B21E2DA9430066B684 /* LocalizedTimeAgoWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizedTimeAgoWatch.h; sourceTree = "<group>"; };
-		9B8A76B31E2DA9430066B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B8A76BC1E2DA9E90066B684 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = SOURCE_ROOT; };
 		9BF0C86D1E2F0339008EEB9B /* LocalizedTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LocalizedTimeAgo.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,11 +67,8 @@
 		9B37799A1E2A8E0000D4301C = {
 			isa = PBXGroup;
 			children = (
-				9B3779A81E2A8E3800D4301C /* Sources */,
-				9B6A0BE81E2C2CA60096F61F /* LocalizedTimeAgo */,
-				9B6A0C171E2C31F10096F61F /* LocalizedTimeAgoMac */,
-				9B8A76A01E2DA8A60066B684 /* LocalizedTimeAgoTV */,
-				9B8A76B11E2DA9430066B684 /* LocalizedTimeAgoWatch */,
+				9B5A7AB42210F21700FD0C9D /* Sources */,
+				9BF0C86C1E2F0339008EEB9B /* Resources */,
 				9B3779A71E2A8E3800D4301C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,52 +84,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B3779A81E2A8E3800D4301C /* Sources */ = {
+		9B5A7AB42210F21700FD0C9D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9B3779B11E2A8F0300D4301C /* LocalizedTimeAgo.h */,
-				9B3779AF1E2A8EFE00D4301C /* Info.plist */,
-				9B8A76BC1E2DA9E90066B684 /* Info-tvOS.plist */,
-				9B3779C11E2A8F6E00D4301C /* LocalizedTimeAgo.swift */,
-				9BF0C86C1E2F0339008EEB9B /* Resources */,
+				9B5A7AB52210F21700FD0C9D /* LocalizedTimeAgo.h */,
+				9B5A7AB72210F21700FD0C9D /* Info.plist */,
+				9B5A7AB62210F21700FD0C9D /* LocalizedTimeAgo.swift */,
 			);
-			name = Sources;
-			path = LocalizedTimeAgo;
-			sourceTree = "<group>";
-		};
-		9B6A0BE81E2C2CA60096F61F /* LocalizedTimeAgo */ = {
-			isa = PBXGroup;
-			children = (
-				9B6A0BE91E2C2CA60096F61F /* Info.plist */,
-			);
-			path = LocalizedTimeAgo;
-			sourceTree = "<group>";
-		};
-		9B6A0C171E2C31F10096F61F /* LocalizedTimeAgoMac */ = {
-			isa = PBXGroup;
-			children = (
-				9B6A0C181E2C31F10096F61F /* LocalizedTimeAgoMac.h */,
-				9B6A0C191E2C31F10096F61F /* Info.plist */,
-			);
-			path = LocalizedTimeAgoMac;
-			sourceTree = "<group>";
-		};
-		9B8A76A01E2DA8A60066B684 /* LocalizedTimeAgoTV */ = {
-			isa = PBXGroup;
-			children = (
-				9B8A76A11E2DA8A60066B684 /* LocalizedTimeAgoTV.h */,
-				9B8A76A21E2DA8A60066B684 /* Info.plist */,
-			);
-			path = LocalizedTimeAgoTV;
-			sourceTree = "<group>";
-		};
-		9B8A76B11E2DA9430066B684 /* LocalizedTimeAgoWatch */ = {
-			isa = PBXGroup;
-			children = (
-				9B8A76B21E2DA9430066B684 /* LocalizedTimeAgoWatch.h */,
-				9B8A76B31E2DA9430066B684 /* Info.plist */,
-			);
-			path = LocalizedTimeAgoWatch;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		9BF0C86C1E2F0339008EEB9B /* Resources */ = {
@@ -158,7 +109,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3779C01E2A8F4500D4301C /* LocalizedTimeAgo.h in Headers */,
+				9B5A7AB82210F21700FD0C9D /* LocalizedTimeAgo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +117,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B8A76A81E2DA8C90066B684 /* LocalizedTimeAgo.h in Headers */,
+				9B5A7AB92210F21700FD0C9D /* LocalizedTimeAgo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +125,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B8A76A91E2DA8CA0066B684 /* LocalizedTimeAgo.h in Headers */,
+				9B5A7ABA2210F21700FD0C9D /* LocalizedTimeAgo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +133,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B8A76B81E2DA9490066B684 /* LocalizedTimeAgo.h in Headers */,
+				9B5A7ABB2210F21700FD0C9D /* LocalizedTimeAgo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,15 +218,16 @@
 		9B37799B1E2A8E0100D4301C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1010;
 				TargetAttributes = {
 					9B3779B71E2A8F3C00D4301C = {
 						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					9B6A0C151E2C31F00096F61F = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					9B8A769E1E2DA8A60066B684 = {
@@ -348,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3779C21E2A8F6E00D4301C /* LocalizedTimeAgo.swift in Sources */,
+				9B5A7ABC2210F21700FD0C9D /* LocalizedTimeAgo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B6A0C1E1E2C320F0096F61F /* LocalizedTimeAgo.swift in Sources */,
+				9B5A7ABD2210F21700FD0C9D /* LocalizedTimeAgo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B8A76AA1E2DA8D10066B684 /* LocalizedTimeAgo.swift in Sources */,
+				9B5A7ABE2210F21700FD0C9D /* LocalizedTimeAgo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B8A76B91E2DA9790066B684 /* LocalizedTimeAgo.swift in Sources */,
+				9B5A7ABF2210F21700FD0C9D /* LocalizedTimeAgo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,12 +334,64 @@
 		9B37799F1E2A8E0100D4301C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
 		9B3779A01E2A8E0100D4301C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Release;
 		};
@@ -440,7 +444,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -450,7 +454,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -500,7 +505,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.toddkramer.LocalizedTimeAgoMobile;
@@ -508,7 +513,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -576,7 +582,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -634,7 +641,8 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -686,7 +694,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -697,7 +705,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -745,7 +753,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -754,7 +762,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -821,7 +829,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -879,7 +887,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

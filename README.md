@@ -1,6 +1,6 @@
 # LocalizedTimeAgo
 
-![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/LocalizedTimeAgo/badge.png) [![Swift](https://img.shields.io/badge/swift-3-orange.svg?style=flat)](https://developer.apple.com/swift/) ![Platform](https://cocoapod-badges.herokuapp.com/p/LocalizedTimeAgo/badge.png) [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+![CocoaPods Version](https://cocoapod-badges.herokuapp.com/v/LocalizedTimeAgo/badge.png) [![Swift](https://img.shields.io/badge/swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/) ![Platform](https://cocoapod-badges.herokuapp.com/p/LocalizedTimeAgo/badge.png) [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 LocalizedTimeAgo is a time ago framework written in Swift and localized in 42 languages. It uses translations from the popular Objective-C library [DateTools](https://github.com/MatthewYork/DateTools).
 
@@ -31,7 +31,7 @@ Manager:
         name: "MyAppTarget",
         dependencies: [
             .Package(url: "https://github.com/toddkramer/LocalizedTimeAgo",
-                     majorVersion: 1, minor: 1)
+                     majorVersion: 1, minor: 2)
         ]
     )
     ```
@@ -55,7 +55,7 @@ install LocalizedTimeAgo with Carthage:
  2. Add LocalizedTimeAgo to your Cartfile:
 
     ```
-    github "toddkramer/LocalizedTimeAgo" ~> 1.1.0
+    github "toddkramer/LocalizedTimeAgo" ~> 1.2.0
     ```
 
  3. Run `carthage update` and [add the appropriate framework][Carthage Usage].
@@ -79,7 +79,7 @@ LocalizedTimeAgo with CocoaPods:
     ``` ruby
     use_frameworks!
 
-    pod 'LocalizedTimeAgo', '~> 1.1.0'
+    pod 'LocalizedTimeAgo', '~> 1.2.0'
     ```
 
  3. Run `pod install`.
