@@ -78,3 +78,21 @@
 
 /* No comment provided by engineer. */
 "This year" = "Cette année";
+
+/* Short format for */
+"%dy" = "%da"; // year
+"%dM" = "%dM"; // month
+"%dw" = "%dsem"; // week
+"%dd" = "%dj"; // day
+"%dh" = "%dh"; // hour
+"%dm" = "%dmin"; // minute
+"%ds" = "%ds"; // second
+
+/* Week format for */
+"Mon" = "Lun";
+"Tue" = "Mar";
+"Wed" = "Mer";
+"Thu" = "Jeu";
+"Fri" = "Ven";
+"Sat" = "Sam";
+"Sun" = "Dim";
