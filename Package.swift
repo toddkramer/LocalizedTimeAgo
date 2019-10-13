@@ -1,3 +1,5 @@
+// swift-tools-version:5.1
+
 //  Package.swift
 //
 //  Copyright (c) 2017 Todd Kramer (http://www.tekramer.com)
@@ -20,8 +22,17 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
+
 import PackageDescription
 
 let package = Package(
-    name: "LocalizedTimeAgo"
+    name: "LocalizedTimeAgo",
+    products: [
+        .library(
+            name: "LocalizedTimeAgo",
+            targets: ["LocalizedTimeAgo"]),
+    ],
+    targets: [
+        .target(name: "LocalizedTimeAgo")
+    ]
 )
