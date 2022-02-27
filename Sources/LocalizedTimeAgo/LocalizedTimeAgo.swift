@@ -67,6 +67,7 @@ public extension Date {
     }
 
     func timeAgo(numericDates: Bool = false, numericTimes: Bool = false) -> String {
+        let components = self.components
         if let year = components.year, year > 0 {
             if year >= 2 { return String(format: "%d years ago".adjustedKey(forValue: year).localized(), year) }
             return numericDates ? "1 year ago".localized() : "Last year".localized()
@@ -93,6 +94,7 @@ public extension Date {
     }
 
     func shortTimeAgo() -> String {
+        let components = self.components
         if let year = components.year, year > 0 {
             return String(format: "%dy".localized(), year)
         } else if let month = components.month, month > 0 {
