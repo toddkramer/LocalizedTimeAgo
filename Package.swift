@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 
 //  Package.swift
 //
@@ -27,12 +27,17 @@ import PackageDescription
 
 let package = Package(
     name: "LocalizedTimeAgo",
+    defaultLocalization: "en",
     products: [
         .library(
             name: "LocalizedTimeAgo",
-            targets: ["LocalizedTimeAgo"]),
+            targets: ["LocalizedTimeAgo"]
+        )
     ],
     targets: [
-        .target(name: "LocalizedTimeAgo")
+        .target(
+            name: "LocalizedTimeAgo",
+            exclude: ["Info.plist"]
+        )
     ]
 )
