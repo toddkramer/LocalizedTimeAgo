@@ -31,8 +31,13 @@ fileprivate class Constants {
 fileprivate extension Bundle {
     
     static var moduleBundle: Bundle {
-        guard let path = Bundle(for: Constants.self).resourcePath else { return .main }
-        return Bundle(path: path.appending("/\(Constants.resource).bundle")) ?? .main
+#if SWIFT_PACKAGE
+        return Bundle.module
+#else
+        let bundle = Bundle(for: Constants.self)
+        guard let url = bundle.url(forResource: Constants.resource, withExtension: "bundle") else { return .main }
+        return Bundle(url: url) ?? bundle
+#endif
     }
 
 }
