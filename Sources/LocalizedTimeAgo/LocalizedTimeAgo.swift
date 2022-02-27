@@ -60,14 +60,13 @@ public extension Date {
 
     private var calendar: Calendar { return .current }
 
-    private var components: DateComponents {
+    private func components(relativeTo referenceDate: Date = Date()) -> DateComponents {
         let unitFlags = Set<Calendar.Component>([.second,.minute,.hour,.day,.weekOfYear,.month,.year])
-        let now = Date()
-        return calendar.dateComponents(unitFlags, from: self, to: now)
+        return calendar.dateComponents(unitFlags, from: self, to: referenceDate)
     }
 
-    func timeAgo(numericDates: Bool = false, numericTimes: Bool = false) -> String {
-        let components = self.components
+    func timeAgo(numericDates: Bool = false, numericTimes: Bool = false, relativeTo referenceDate: Date = Date()) -> String {
+        let components = self.components(relativeTo: referenceDate)
         if let year = components.year, year > 0 {
             if year >= 2 { return String(format: "%d years ago".adjustedKey(forValue: year).localized(), year) }
             return numericDates ? "1 year ago".localized() : "Last year".localized()
@@ -93,8 +92,8 @@ public extension Date {
         return numericTimes ? "1 second ago".localized() : "Just now".localized()
     }
 
-    func shortTimeAgo() -> String {
-        let components = self.components
+    func shortTimeAgo(relativeTo referenceDate: Date = Date()) -> String {
+        let components = self.components(relativeTo: referenceDate)
         if let year = components.year, year > 0 {
             return String(format: "%dy".localized(), year)
         } else if let month = components.month, month > 0 {
