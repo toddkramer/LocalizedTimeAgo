@@ -123,3 +123,21 @@
 
 /* No comment provided by engineer. */
 "This year" = "Dette året";
+
+/* Week format for */
+"Mon" = "Ma.";
+"Tue" = "Ti.";
+"Wed" = "On.";
+"Thu" = "To.";
+"Fri" = "Fr.";
+"Sat" = "Lø.";
+"Sun" = "Sø.";
+
+/* Short format for */
+"%dy" = "%dår";  // year
+"%dM" = "%dMd."; // month
+"%dw" = "%duke"; // week
+"%dd" = "%ddg."; // day
+"%dh" = "%dt";   // hour
+"%dm" = "%dmin"; // minute
+"%ds" = "%ds";   // second
