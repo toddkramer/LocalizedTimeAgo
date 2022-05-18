@@ -135,7 +135,7 @@
 
 /* Short format for */
 "%dy" = "%dår";  // year
-"%dM" = "%dMd."; // month
+"%dM" = "%dmd."; // month
 "%dw" = "%duke"; // week
 "%dd" = "%ddg."; // day
 "%dh" = "%dt";   // hour
